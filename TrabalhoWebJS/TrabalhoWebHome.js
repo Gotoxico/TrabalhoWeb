@@ -17,12 +17,12 @@ var positronLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_l
         pane: 'labels'
 });positronLabels.addTo(map);
 
-var markerUK = L.marker([54.5, -3]).addTo(map);
 var markerEUA = L.marker([39.5, -100.5]).addTo(map);
 var markerBelgium = L.marker([50.5, 4.7]).addTo(map);
 var markerEgypt = L.marker([26, 29.3]).addTo(map);
 var markerIndonesia = L.marker([-2.6, 117.9]).addTo(map);
 var markerSaudiArabia = L.marker([25.4, 42.4]).addTo(map);
+var markerAustralia = L.marker([-25, 134]).addTo(map);
 var markerMalaysia = L.marker([4.4, 102.3]).addTo(map);
 var markerChina = L.marker([34.7, 105]).addTo(map);
 var markerIndia = L.marker([22.2, 78.7]).addTo(map);
