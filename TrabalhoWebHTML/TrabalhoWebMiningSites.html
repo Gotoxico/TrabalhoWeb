@@ -4,13 +4,15 @@
 <link rel="stylesheet" href="../TrabalhoWebCSS/TrabalhoWebGeral.css">
 <link rel="stylesheet" href="../TrabalhoWebCSS/TrabalhoWebHeading.css">
 <link rel="stylesheet" href="../TrabalhoWebCSS/TrabalhoWebMiningSites.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <title>Mining Sites</title>
 </head>
 <body class="background">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
     <div class="center">
         <ul class="heading" style="float:middle">
-            <li class="headingLi"><a class="headingLiA aheading" href="../TrabalhoWebHTML/TrabalhoWeb.html">Início</a></li>
+            <li class="headingLi"><a class="headingLiA aheading" href="../TrabalhoWebHTML/TrabalhoWebHome.html">Início</a></li>
             <li class="headingLi"><a class="headingLiA active aheading" href="../TrabalhoWebHTML/TrabalhoWebMiningSites.html">Mineração</a></li>
             <li class="headingLi"><a class="headingLiA aheading" href="../TrabalhoWebHTML/TrabalhoWebResearchSites.html">Pesquisa</a></li>
             <li class="headingLi"><a class="headingLiA aheading" href="../TrabalhoWebHTML/TrabalhoWebComponentsSites.html">Fabricação</a></li>
@@ -18,11 +20,67 @@
           </ul>
     </div>
 
-<h1 class="center">Mining Sites</h1>
+<h1 class="center">Locais de Mineração</h1>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<p class="center">Informações e mapas</p>
+<br><br>
+<h2>Silicio</h2>
+<p>Também conhecido como Dióxido de Silício(SiO2), é extraído principalmente ou de Areia Sílica ("Silica Sand") ou de Quartzo sólido</p>
 
+<h3>Areia Sílica</h3>
+<p>Encontrado em desertos ou praias, mas também em minas. Principais exportadores em 2021</p>
+<ol type="1" class="colorazure">
+    <li>EUA(U$476M)</li>
+    <li>Austrália(U$183M)</li>
+    <li>Bélgica(U$83M)</li>
+    <li>Egito(U$55M)</li>
+    <li>Indonésia(U$51M)</li>
+    <li>Arábia Saudita(U$50M)</li>
+    <li>Malásia(U$49M)</li>
+</ol>
+<div id="mapAreiaSilica"></div>
+
+<h3>Quartzo</h3>
+<p>Encontrados ao ar livre ou em minas. Principais exportadores em 2021</p>
+<ol type="1" class="colorazure">
+    <li>China(U$180M)</li>
+    <li>Índia(U$102M)</li>
+    <li>Turquia(U$99M)</li>
+    <li>Brasil(U$94M)</li>
+    <li>Estados Unidos(U$49M)</li>
+    <li>Espanha(U$45M)</li>
+</ol>
+<div id="mapQuartzo"></div>
+
+<br>
+<h2>Germânio e Gálio</h2>
+<h3>Bauxita</h3>
+<p>Minério bruto na produção de zinco e alumínio, mas também gera germânio e gálio respectivamente, devido a dificuldade de obtenção de minérios puros dos dois elementos. Maiores produtores em 2022</p>
+<ol type="1" class="colorazure">
+    <li>Austrália(100M ton)</li>
+    <li>China(96M ton)</li>
+    <li>Guiné(86M ton)</li>
+    <li>Ucrânia(42M ton)</li>
+    <li>Brasil(33M ton)</li>
+</ol>
+<div id="mapBauxita"></div>
+
+<br>
+<h2>Arsênio</h2>
+<h3>Arsenopirita</h3>
+<p>Minério bruto mais comum é a arsenopirita, que como o nome diz, é uma rocha ígnea, por isto encontrada em veias hidrotermais. Maiores produtores em ordem decrescente</p>
+<ul type="circle" class="colorazure">
+    <li>China</li>
+    <li>Marrocos</li>
+    <li>Namíbia</li>
+    <li>Rússia</li>
+    <li>Bélgica</li>
+    <li>Irã</li>
+    <li>Japão</li>
+</ul>
+<div id="mapArsenopirita"></div>
 
 </body>
 </html>
+
+<script language="javascript" src="../TrabalhoWebJS/TrabalhoWebMiningSites.js" type="text/javascript"></script>
+
