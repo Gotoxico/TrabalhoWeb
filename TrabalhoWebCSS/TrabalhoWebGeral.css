@@ -11,7 +11,20 @@ h1{
     text-align:center;
 }
 
+h2{
+    color:#fdfd96;
+    text-align: left;
+}
+h3{
+    color:#C3B1E1;
+    text-align: left;
+}
+
 p{
+    color:azure;
+}
+
+.colorazure{
     color:azure;
 }
 
