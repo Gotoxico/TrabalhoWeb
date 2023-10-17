@@ -37,14 +37,176 @@ var markerRussia = L.marker([64.6, 97.8]).addTo(map);
 var markerIran = L.marker([32.5, 54.5]).addTo(map);
 var markerJapan = L.marker([36.55, 139.25]).addTo(map);
 
-var latlngs = [
-    [-22, -51],
+var EUA = [
+    [-22.121265, -51.383400],
     [39.5, -100.5]
 ];
 
-var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
+var polylineEUA = L.polyline(EUA, {color: 'red'}).addTo(map);
 
-map.fitBounds(polyline.getBounds());
+map.fitBounds(polylineEUA.getBounds());
+
+var Belgium = [
+  [-22.121265, -51.383400],
+  [50.5, 4.7]
+];
+
+var polylineBelgium = L.polyline(Belgium, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineBelgium.getBounds());
+
+var Egypt = [
+  [-22.121265, -51.383400],
+  [26, 29.3]
+];
+
+var polylineEgypt = L.polyline(Egypt, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineEgypt.getBounds());
+
+var Indonesia = [
+  [-22.121265, -51.383400],
+  [-2.6, 117.9]
+];
+
+var polylineIndonesia = L.polyline(Indonesia, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineIndonesia.getBounds());
+
+var SaudiArabia = [
+  [-22.121265, -51.383400],
+  [25.4, 42.4]
+];
+
+var polylineSaudiArabia = L.polyline(SaudiArabia, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineSaudiArabia.getBounds());
+
+var Australia = [
+  [-22.121265, -51.383400],
+  [-25, 134]
+];
+
+var polylineAustralia = L.polyline(Australia, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineAustralia.getBounds());
+
+var Malaysia = [
+  [-22.121265, -51.383400],
+  [4.4, 102.3]
+];
+
+var polylineMalaysia = L.polyline(Malaysia, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineMalaysia.getBounds());
+
+var China = [
+  [-22.121265, -51.383400],
+  [34.7, 105]
+];
+
+var polylineChina = L.polyline(China, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineChina.getBounds());
+
+var India = [
+  [-22.121265, -51.383400],
+  [22.2, 78.7]
+];
+
+var polylineIndia = L.polyline(India, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineIndia.getBounds());
+
+var Turkey = [
+  [-22.121265, -51.383400],
+  [38.7, 35]
+];
+
+var polylineTurkey = L.polyline(Turkey, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineTurkey.getBounds());
+
+var Brazil = [
+  [-22.121265, -51.383400],
+  [-10.5, -53.1]
+];
+
+var polylineBrazil = L.polyline(Brazil, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineBrazil.getBounds());
+
+var Spain = [
+  [-22.121265, -51.383400],
+  [39.2, -4.8]
+];
+
+var polylineSpain = L.polyline(Spain, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineSpain.getBounds());
+
+var Guinea = [
+  [-22.121265, -51.383400],
+  [10.6, -10.7]
+];
+
+var polylineGuinea = L.polyline(Guinea, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineGuinea.getBounds());
+
+var Ukraine = [
+  [-22.121265, -51.383400],
+  [49.3, 31.3]
+];
+
+var polylineUkraine = L.polyline(Ukraine, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineUkraine.getBounds());
+
+var Morocco = [
+  [-22.121265, -51.383400],
+  [31, -7.3]
+];
+
+var polylineMorocco = L.polyline(Morocco, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineMorocco.getBounds());
+
+var Namibia = [
+  [-22.121265, -51.383400],
+  [-23.3, 17.3]
+];
+
+var polylineNamibia = L.polyline(Namibia, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineNamibia.getBounds());
+
+var Russia = [
+  [-22.121265, -51.383400],
+  [64.6, 97.8]
+];
+
+var polylineRussia = L.polyline(Russia, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineRussia.getBounds());
+
+var Iran = [
+  [-22.121265, -51.383400],
+  [32.5, 54.5]
+];
+
+var polylineIran = L.polyline(Iran, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineIran.getBounds());
+
+var Japan = [
+  [-22.121265, -51.383400],
+  [36.55, 139.25]
+];
+
+var polylineJapan = L.polyline(Japan, {color: 'red'}).addTo(map);
+
+map.fitBounds(polylineJapan.getBounds());
 
 
 
