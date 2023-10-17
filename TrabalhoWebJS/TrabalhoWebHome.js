@@ -1,3 +1,4 @@
+//Criar mapa e colocar layers//
 var map = L.map('map').setView([39, 34], 2);
 map.createPane('labels');
 map.getPane('labels').style.zIndex = 650;
@@ -17,6 +18,7 @@ var positronLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_l
         pane: 'labels'
 });positronLabels.addTo(map);
 
+//Colocar marcadores//
 var markerEUA = L.marker([39.5, -100.5]).addTo(map);
 var markerBelgium = L.marker([50.5, 4.7]).addTo(map);
 var markerEgypt = L.marker([26, 29.3]).addTo(map);
@@ -37,6 +39,7 @@ var markerRussia = L.marker([64.6, 97.8]).addTo(map);
 var markerIran = L.marker([32.5, 54.5]).addTo(map);
 var markerJapan = L.marker([36.55, 139.25]).addTo(map);
 
+//Colocar linhas de rota//
 var EUA = [
     [-22.121265, -51.383400],
     [39.5, -100.5]
@@ -208,8 +211,7 @@ var polylineJapan = L.polyline(Japan, {color: 'red'}).addTo(map);
 
 map.fitBounds(polylineJapan.getBounds());
 
-
-
+//Botão para localização user//
 let button = document.getElementById("get-location");
 let latText = document.getElementById("latitude");
 let longText = document.getElementById("longitude");
@@ -222,5 +224,6 @@ button.addEventListener("click", () => {
   });
 });
 
+//Botão no mapa para localização user//
 L.control.locate().addTo(map);
 
