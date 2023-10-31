@@ -1,0 +1,11 @@
+img{
+    width:128px;
+    height:128px;
+}
+
+.subtitle{
+    display: flex;
+}
+.subtitle h2{
+    padding: 30px 5px;
+}
