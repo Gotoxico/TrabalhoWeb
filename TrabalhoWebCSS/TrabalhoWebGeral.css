@@ -32,3 +32,14 @@ p{
     color:azure;
 }
 
+body{
+    font-family:"Consolas";
+    display: flex;
+    flex-direction: column;
+    min-height:100%;
+}
+
+footer{
+    margin-top: auto;
+}
+

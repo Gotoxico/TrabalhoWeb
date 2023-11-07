@@ -1,3 +1,8 @@
+function imprimir(value1, value2){
+  alert("Então seu nome é: "+value1.value);
+  alert("E seu e-mail é: "+value2.value);
+}
+
 //Criar mapa e colocar layers//
 var map = L.map('map').setView([39, 34], 2);
 map.createPane('labels');
@@ -17,6 +22,27 @@ var positronLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_l
         attribution: '©OpenStreetMap, ©CartoDB',
         pane: 'labels'
 });positronLabels.addTo(map);
+
+//Colocar marcadores//
+var markerEUA = L.marker([39.5, -100.5]).addTo(map);
+var markerBelgium = L.marker([50.5, 4.7]).addTo(map);
+var markerEgypt = L.marker([26, 29.3]).addTo(map);
+var markerIndonesia = L.marker([-2.6, 117.9]).addTo(map);
+var markerSaudiArabia = L.marker([25.4, 42.4]).addTo(map);
+var markerAustralia = L.marker([-25, 134]).addTo(map);
+var markerMalaysia = L.marker([4.4, 102.3]).addTo(map);
+var markerChina = L.marker([34.7, 105]).addTo(map);
+var markerIndia = L.marker([22.2, 78.7]).addTo(map);
+var markerTurkey = L.marker([38.7, 35]).addTo(map);
+var markerBrazil = L.marker([-10.5, -53.1]).addTo(map);
+var markerSpain = L.marker([39.2, -4.8]).addTo(map);
+var markerGuinea = L.marker([10.6, -10.7]).addTo(map);
+var markerUkraine = L.marker([49.3, 31.3]).addTo(map);
+var markerMorocco = L.marker([31, -7.3]).addTo(map);
+var markerNamibia = L.marker([-23.3, 17.3]).addTo(map);
+var markerRussia = L.marker([64.6, 97.8]).addTo(map);
+var markerIran = L.marker([32.5, 54.5]).addTo(map);
+var markerJapan = L.marker([36.55, 139.25]).addTo(map);
 
 //Colocar linhas de rota//
 
@@ -231,3 +257,10 @@ markerJapan.on('click', function(e){
 
 //Botão no mapa para localização user//
 L.control.locate().addTo(map);
+
+
+
+
+
+  
+
